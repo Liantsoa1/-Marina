@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     m4 \
     git \
     python3 \
-    python3-pip
+    python3-pip \
+    ocaml-native-compilers
 
 RUN pip install flask
 
